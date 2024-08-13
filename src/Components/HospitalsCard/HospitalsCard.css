@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-family: Poppins;
+    letter-spacing: 0.5px;
+}
+
+.hospitalCardContainer{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 8px;
+    justify-content: space-evenly;
+    /* background-color:rgba(255, 255, 255, 1); */
+    /* border-radius: 15px; */
+    width: 700px;
+    height: 268px;
+    padding: 8px;
+}
+
+.hospitalCardButton button{
+    background-color: rgba(42, 167, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}

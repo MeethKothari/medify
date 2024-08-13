@@ -1,0 +1,26 @@
+.hero-section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(232, 241, 255, 0.47);
+}
+
+.hero-section-description{
+    margin-top: 100px;
+    letter-spacing: 0.50px;
+    width: 30vw;
+    font-family: Poppins;
+}
+
+.hero-section-button{
+    background-color:rgba(42, 168, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}

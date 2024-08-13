@@ -1,0 +1,45 @@
+.findDoctorsContainer{
+    background-color: rgba(231, 240, 255, 1);
+}
+
+.backOfSearchBox{
+    background-color: rgba(42, 167, 255, 1);
+    height: 70px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.inputContainer select{
+   padding: 5px;
+   display: flex;
+   margin-top: 20px;
+   border-radius: 8px;
+   width: 200px;
+   font-size: large;
+   border: none;
+}
+
+.inputContainer button{
+   padding: 5px;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   border-radius: 8px;
+   border: none;
+   width: 100px;
+   font-size: large;
+   background-color: aliceblue;
+   color: black;
+}
+
+.inputContainer button:hover{
+   border: 2px solid black;
+   background-color: rgba(232, 241, 255, 0.47);
+   cursor: pointer; 
+}

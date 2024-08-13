@@ -1,0 +1,48 @@
+.navbar-container{
+    background-color: rgba(232, 241, 255, 0.47);
+    flex-wrap: wrap;
+}
+
+.heading{
+    background-color: rgba(42, 167, 255, 1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 20px 20px 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.navbar a {
+    color: rgba(16, 40, 81, 1);
+    text-decoration: none;
+}
+
+.navbar h5:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 10px rgba(42, 168, 255, 1);
+}
+
+.navbar button{
+    background-color:rgba(42, 168, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

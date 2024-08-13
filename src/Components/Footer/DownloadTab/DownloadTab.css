@@ -1,0 +1,39 @@
+.numberInput{
+    padding: 10px;
+    border: 1px solid rgba(180, 180, 190, 0.3);
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 500;
+}
+
+.numberInputReadonly{
+    padding: 10px;
+    border: 1px solid rgba(180, 180, 190, 0.3);
+    border-radius: 5px 0px 0px 5px;
+    width: 20px;
+    font-weight: 500;
+}
+
+.smsButton{
+    background-color:rgba(42, 168, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.GooglePlayStore{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.AppleStore{
+    width: 100px;
+    height: 100px;
+}
