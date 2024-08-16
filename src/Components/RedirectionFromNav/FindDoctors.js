@@ -79,7 +79,7 @@ useEffect (()=>{
 return (
     <>
     <div className='findDoctorsContainer'>
-      <Header/>
+      <Header />
       <div className='backOfSearchBox'>
         <div className='inputContainer'>
           

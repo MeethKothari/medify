@@ -2,3 +2,19 @@
     background-color: rgba(255, 255, 255, 1);
     border-radius: 0px 0px 15px 15px;
 }
+
+
+.timeSlotsSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+
+.timeSlotsButton{
+    display: flex;
+    justify-content: space-around;
+}
+
+

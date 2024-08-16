@@ -9,13 +9,27 @@ const HospitalsCard = ({selectedStateAndCity}) => {
 const [openBooking, setOpenBooking] = useState(false);
 
 function handleOpenBooking(index){
-  if ( openBooking === index){ //it checks if the card is open then it will set to false and close whenever we click on the button
+  if ( openBooking === index ){ //it checks if the card is open then it will set to false and close whenever we click on the button
     setOpenBooking(false);
   }
   else {
     setOpenBooking(index); // if card is closed it sers true and opens the card and passes the idx no 
   }
 }
+/*The handleConfirmBooking function in HospitalsCard now receives 
+the bookingDetails object from BookingSection and can use it to 
+update localStorage or perform any other logic.
+*/
+
+
+const handleConfirmBooking = (bookingDetails) => {
+  let existingBookingDetails = JSON.parse(localStorage.getItem('bookingDetails')) || [];
+  existingBookingDetails.push(bookingDetails);
+  localStorage.setItem('bookingDetails', JSON.stringify(existingBookingDetails));
+  alert('Booked Successfully - visit My Bookings section to view your booking details');
+  console.log('Booking Confirmed', bookingDetails);
+}
+
 
 return (
   <div className='container'>
@@ -35,7 +49,7 @@ return (
         <button onClick={()=>handleOpenBooking(index)}>Book FREE Center visit</button>
       </div>
     </div>
-    {openBooking === index ? <BookingSection/> : null}
+    {openBooking === index ? <BookingSection hospitalDetails={items} onConfirmBooking={handleConfirmBooking}/> : null}
     </div>
     
     ))}
