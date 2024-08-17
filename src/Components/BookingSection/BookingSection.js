@@ -68,7 +68,7 @@ return (
     scrollbar={{ draggable: true }}
     // onSwiper={(swiper) => console.log(swiper)}
     // onSlideChange={() => console.log('slide change')}
-    style={{ width: '100%', maxWidth: '600px', height:'220px', padding:'50px'}}
+    style={{ width: '100%', maxWidth: '700px', maxHeight:'250px', padding:'50px'}}
     >
     {storeDates.map((items,index)=>(
       <SwiperSlide key={index}>

@@ -12,9 +12,12 @@
 }
 
 
-.timeSlotsButton{
-    display: flex;
-    justify-content: space-around;
+
+.timeSlotsButton Button {
+    color: rgba(42, 167, 255, 1);
+    background-color: white;
+    /* border-color: rgba(42, 167, 255, 1) !important; */
+    border: 1px solid rgba(42, 167, 255, 1);
+    padding: 5px;
+    margin: 2px;
 }
-
-

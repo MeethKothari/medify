@@ -39,7 +39,7 @@ useEffect(()=>{
     </div>
     
     <div style={{display:'flex', flexDirection:'column',alignItems:'center', gap:'5px', flexWrap:'wrap'}}>
-    { filteredData ? (filteredData.map((bookings, index) => (
+    { filteredData.length > 0 ? (filteredData.map((bookings, index) => (
       <div className='hospitalCardContainer' key={index}>
         <div>
           <HospitalImage/>
